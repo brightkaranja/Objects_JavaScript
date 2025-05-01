@@ -196,10 +196,10 @@ function Movie(title, year, rating) {
     };
 }
 
-const movie1 = new Movie("The Matrix", 1999, 8.7);
-const movie2 = new Movie("Inception", 2010, 8.8);
-const movie3 = new Movie("Pulp Fiction", 1994, 8.9);
-const movie4 = new Movie("The Shawshank Redemption", 1994, 9.3);
+const movie1 = new Movie("Captain America", 1999, 8.7);
+const movie2 = new Movie("The Wolf Street", 2010, 8.8);
+const movie3 = new Movie("Harry Potter", 1994, 8.9);
+const movie4 = new Movie("Curse of Chucky", 1994, 9.3);
 
 console.log(`${movie1.title} (Released in ${movie1.year}) - Classic: ${movie1.isClassic()}, Recommendation: ${movie1.recommend()}`);
 console.log(`${movie2.title} (Released in ${movie2.year}) - Classic: ${movie2.isClassic()}, Recommendation: ${movie2.recommend()}`);
